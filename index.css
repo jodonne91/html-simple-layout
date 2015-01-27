@@ -1,15 +1,46 @@
 .top {
 	background-color: #828295;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .stories {
 	background-color: #C7C7D0;
 }
 
-div {
+body {
 	margin-left: 50px;
 }
 
 ol {
+  padding-left: 25px;
   margin: 0;
+  color: gray;
+}
+
+li span {
+  color: black;
+}
+
+.test {
+  background-color: gray;
+  height: 200px;
+}
+
+.theI {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  border: 1px solid white;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+li span {
+  margin-left: 5px;
+}
+
+img {
+  width: 15px;
 }
