@@ -1,46 +1,65 @@
 .top {
-	background-color: #828295;
+  font-size: 28px;
+  background-color: #828295;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 .stories {
-	background-color: #C7C7D0;
+	background-color: #D8D8DE;
+	font-size: 28px;
+}
+
+
+.stories p {
+  padding-top: 0;
+  padding-left: 22px;
+  margin: 0;
+  font-size: 20px;
 }
 
 body {
-	margin-left: 50px;
+	margin-left: 150px;
+	margin-top: 40px;
+
 }
 
 ol {
-  padding-left: 25px;
+  padding-left: 50px;
   margin: 0;
   color: gray;
 }
 
-li span {
-  color: black;
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.test {
-  background-color: gray;
-  height: 200px;
+li span {
+  color: black;
+  margin-left: 5px;
 }
 
 .theI {
-  width: 20px;
-  height: 20px;
+  width: 34px;
+  height: 34px;
   margin-left: 5px;
-  border: 1px solid white;
+  border: 2px solid white;
   color: white;
   display: inline-block;
   text-align: center;
-}
-
-li span {
-  margin-left: 5px;
+  font-size: 30px;
 }
 
 img {
   width: 15px;
+  transform: rotate(-90deg);
+}
+
+.sections {
+  padding-left: 8px;
+}
+
+.sections span {
+  color: white;
 }
