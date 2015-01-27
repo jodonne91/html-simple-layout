@@ -5,3 +5,11 @@
 .stories {
 	background-color: #C7C7D0;
 }
+
+div {
+	margin-left: 50px;
+}
+
+table {
+  border-collapse: collapse;
+}
