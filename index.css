@@ -8,17 +8,31 @@
 }
 
 .stories {
-	padding-top: 10px;
 	background-color: #E8E8E8 ;
-	font-size: 28px;
 }
-
 
 .stories p {
   padding-top: 0;
   padding-left: 22px;
   margin: 0;
   font-size: 28px;
+}
+
+
+.source {
+	color: gray;
+	font-size: 22px;
+}
+
+.login {
+	margin-left: 90%;
+}
+
+.more {
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	background-color: #E8E8E8;
 }
 
 h2 {
@@ -41,9 +55,11 @@ body {
 }
 
 ol {
+  padding-top: 10px;
   padding-left: 50px;
   margin: 0;
   color: gray;
+  font-size: 28px;
 }
 
 li {
@@ -73,11 +89,6 @@ img {
   transform: rotate(-90deg);
 }
 
-.source {
-	color: gray;
-	font-size: 22px;
-}
-
-.login {
-	margin-left: 90%;
+hr {
+	border-width: 3px;
 }
