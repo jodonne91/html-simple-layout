@@ -1,3 +1,22 @@
+body {
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-right: 80px;
+  font-family: Verdana;
+}
+
+.theI {
+  width: 38px;
+  height: 38px;
+  margin-left: 5px;
+  border: 2px solid white;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
 .top {
   background-color: #828295;
   padding-top: 10px;
@@ -5,6 +24,10 @@
   padding-left: 5px;
   color: white;
   font-size: 22px;
+}
+
+.login {
+  padding-left: 15%;
 }
 
 .stories {
@@ -18,14 +41,9 @@
   font-size: 28px;
 }
 
-
 .source {
 	color: gray;
 	font-size: 22px;
-}
-
-.login {
-	margin-left: 90%;
 }
 
 .more {
@@ -35,10 +53,26 @@
 	background-color: #E8E8E8;
 }
 
+.footer {
+  text-align: center;
+}
+
+form {
+  font-size: 26px;
+  margin-left: 25%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: gray;
+}
+
+input {
+  font-size: 26px;
+}
+
 h2 {
 	display: inline;
 	color: black;
-	font-size: 24px;
+	font-size: 26px;
 }
 
 h3 {
@@ -48,10 +82,10 @@ h3 {
 	font-size: 24px;
 }
 
-body {
-	margin-left: 100px;
-	margin-top: 40px;
-	font-family: Verdana;
+h4 {
+  display: inline;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 ol {
@@ -70,18 +104,6 @@ li {
 li span {
   color: black;
   margin-left: 5px;
-}
-
-.theI {
-  width: 38px;
-  height: 38px;
-  margin-left: 5px;
-  border: 2px solid white;
-  color: white;
-  display: inline-block;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 800;
 }
 
 img {
